@@ -63,7 +63,8 @@ function App() {
   return (
     <div className="app">
       <div className="header">
-        <img src={logo} className="logo" alt="logo" />
+        <h1> App React Todo </h1>
+        <p>Add, delete, and done</p>
       </div>
       <form className="todo-list">
         <ul>
