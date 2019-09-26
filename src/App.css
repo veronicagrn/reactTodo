@@ -1,6 +1,8 @@
 body {
-  background-color: #323b4b;
   min-height: 100vh;
+  background: #161A42;
+  /* object-fit: cover;
+  background-repeat: round; */
 }
 
 .app {
@@ -35,12 +37,12 @@ body {
 }
 
 .todo-is-completed .checkbox {
-  color: #000;
-  background: #fff;
+  color: #fff;
+  background: #00D4F0;
 }
 
 .todo-is-completed input {
-  text-decoration: line-through;
+  text-decoration: line-through #00D4F0;
 }
 
 .checkbox {
@@ -54,7 +56,7 @@ body {
   justify-content: center;
   align-items: center;
   transition: background-color .2s ease-in-out;
-  border: 1px solid #fff;
+  border: 1px solid #00D4F0;
 }
 
 .checkbox:hover {
