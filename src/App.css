@@ -1,6 +1,6 @@
 body {
   min-height: 100vh;
-  background-image: linear-gradient(180deg,#97085a 0%,#3a035e 100%)!important;
+  background: linear-gradient(to right, rgb(229, 93, 135), rgb(95, 195, 228));
 }
 
 .app {
